@@ -116,7 +116,7 @@ export default function Home() {
             </div>
           </section>
 
-          {/* タスク追加用入力フィールド */}
+          {/* タスクを追加する入力フィールドのセクション */}
           <section className='bg-white p-4 rounded-xl shadow-md'>
             <div className='flex gap-4'>
               {/* 入力フィールド */}
@@ -135,7 +135,7 @@ export default function Home() {
             </div>
           </section>
 
-          {/* リストの状態に応じてフィルタリングするセクション */}
+          {/* リストをフィルタリングするセクション */}
           <section className='p-4'>
             <div className='flex justify-center'>
               <div className='flex gap-2'>
@@ -173,7 +173,7 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Todo一覧 */}
+          {/* 追加したTodoを一覧表示するセクション */}
           <section className='space-y-3'>
             {filteredTodos.map((todo: Todo) => (
               <>
